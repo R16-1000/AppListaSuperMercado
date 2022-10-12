@@ -1,0 +1,87 @@
+*{/*texto superior*/
+    margin: 20;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #503333;
+    
+}
+header{/*fundo*/
+    background-color: #501f1c;
+    text-align: center;
+    color: rgb(238, 237, 237);
+    padding: 15px 0;
+    border-radius: 20px;
+    
+}
+header h2{
+    color: black;
+    font-size: 30px;
+}
+.lista-cadastro{/*corpo da barra de texto*/
+    display: flex; 
+    margin: 20px 0;
+    padding:0 20px;
+    
+}
+.lista-cadastro input[type=text]{ /*esse é o campo de texto cadastro de produto*/
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: #c49696;
+    margin: 5px;
+    font-size: 15px;
+    
+}
+.lista-cadastro input[type=number]{
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: #c49696;
+    margin: 5px;
+}
+.lista-cadastro input[type=submit]{
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #724545;
+}
+
+.lista-produtos-single{
+    padding: 1px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+.lista-produtos-single h3{
+    flex: 1;
+    padding: 0 20px;
+}
+h3.price-produto{
+    text-align: right;
+    font-size: 15px;
+    
+}
+h3.price-produto > span{
+    background-color: #bb5a5a;
+    padding: 5px 10px;
+    border-radius: 20px; 
+    color: rgb(58, 17, 17); 
+}
+.soma-produto{
+    margin: 20px;
+    font-size: 15px;
+}
+
+button{
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #724545;
+    font-size: 15px;
+   
+}
